@@ -80,5 +80,13 @@ section#login > div > form > input#enviar{
     color: white;
     cursor: pointer;
 }
+section#login > div > form > input#enviar:hover{
+    background-color: #ba0f9594;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
 
     

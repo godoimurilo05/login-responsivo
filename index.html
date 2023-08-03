@@ -17,9 +17,10 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente.  Realize o login para ter acesso a sua conta.</p>
                 <form action="login.php" method="post">
-                    <input type="text" name="novamente" id="inome" placeholder="Username">
+                    <input type="text" name="novamente" id="inome" placeholder="Username" required minlength="5" maxlength="15">
 
-                    <input type="password" name="senha" id="isenha" placeholder="Password">
+                    <input type="password" name="senha" id="isenha" placeholder="Password" required minlength="8"
+                    maxlength="15">
 
                     <input type="submit" value="Submit" id="enviar">
                     
